@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: zuul-api-gateway
+
+logging:
+  level:
+    com.tokoin.tokobook: DEBUG
+  file:
+    path: ${LOGPATH:/home/ubuntu/tmp/logs}
